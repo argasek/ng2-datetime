@@ -4,6 +4,8 @@ import {
 } from '@angular/core';
 import {ControlValueAccessor, NgControl} from '@angular/common';
 
+declare var jQuery: any;
+
 @Component({
     selector: 'datetime',
     template: `
